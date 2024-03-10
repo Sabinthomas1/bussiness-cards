@@ -1,0 +1,33 @@
+.nav-section{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 8rem;
+}
+.nav-section ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 18rem;
+}
+.nav-section ul li{
+    list-style: none;
+}
+.nav-section ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-btn-section img{
+    height: 32px;
+    width: 32px;
+}
+.nav-section button{
+    margin-right: 1.5rem;
+    padding: .5rem 1.5rem ;
+    border-radius: 6px;
+}
